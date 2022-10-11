@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+  <html lang="nl">
+  <head>
+    <title>Huiswerk Les 25</title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+      </script>
+    <script>
+      $(document).ready(function() {
+      $("#verdwijnen").click(function() {
+        $("div").fadeOut(1000);
+      })
+      $("#verschijnen").click(function() {
+        $("div").fadeIn(1000);
+      })
+      })
+      </script>
+  </head>
+  <body>
+  <button id="verschijnen">Verschijnen</button>
+  <button id="verdwijnen">Verdwijnen</button>
+  <div>
+    <h1>
+      Verschijnen en Verdwijnen
+    </h1>
+    <p>
+      Met de knoppen kun je deze tekst langzaam laten verschijnen of langzaam laten verdwijnen.
+    </p>
+  </div>
+    <noscript>
+      Om deze website te gebruiken is het noodzakelijk om JavaScript in the schakelen.
+    </noscript>
+  </body>
+</html>
